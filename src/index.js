@@ -1,17 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import area
+// import DefulatImport from 'somelibrary_of_nodemodules';    
+// import DefulatImport from './somelibrary_of_realive file';
+import React from "react";
+import A from "./component/A";
+import B from "./component/B";
+// import something from somelibrary
+import ReactDOM from "react-dom";
+    
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Main code
+
+
+// ReactDOM.render(what,where);
+// ReactDOM.render(Kya place krna hai , kaha place krna hai);
+
+//object.member();
+ReactDOM.render(<div>Hello dear <A /> </div>,document.getElementById("container"));
+// you can pick other way document.querySelector("#container")
